@@ -1,0 +1,134 @@
+.head{
+  width : 1300px;
+  height: 200px;
+	background: rgb(0,169,255);
+  background: linear-gradient(90deg, rgba(0,169,255,1) 0%, rgba(9,9,121,1) 90%, rgba(0,58,131,1) 100%);
+	}
+
+    .head img{
+      margin-top : 30px;
+      display: inline-block;
+      margin-right: 45px;
+    }
+
+    .judul{
+      padding-top: 4%;
+      margin-top: 0px;
+      margin-bottom: 0px;
+      margin-right: 0px;
+      margin-left:15px;
+    }
+
+    h1{
+      font-size : 52px;
+      font-family : Poppins;
+      color: #fff;
+      margin-left: 45px;
+      text-align: left;
+      line-height: 0.8;
+      font-weight: 450;
+    }
+    
+  nav ul {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 260px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #262626;
+  }
+  nav ul li {
+    list-style: none;
+  }
+  nav ul li a {
+    display: block;
+    font-family: 'poppins', sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #fff;
+    position: relative;
+    padding: 25px 0 25px 38px;
+  }
+  nav ul li a:before {
+    content: '';
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 0%;
+    height: 100%;
+    background: #e3e9f7;
+    border-radius: 40px 0px 0px 40px;
+    z-index: -1;
+    transition: all 300ms ease-in-out;
+  }
+  nav ul li a:hover {
+    color: #2b2626;
+  }
+  nav ul li a:hover:before {
+    width: 95%;
+  }
+  .wrapper {
+    margin-left: 260px;
+  }
+  .section {
+    display: grid;
+    place-items: left;
+    min-height: 100vh;
+    text-align: left;
+  }
+  .box-area h2 {
+    text-transform: uppercase;
+    font-size: 50px;
+  }
+  .box-area {
+    width : 1300px;
+    height: 3375px;
+    background: rgb(248,248,248);
+    background: linear-gradient(180deg, rgba(248,248,248,1) 0%, rgba(252,238,255,1) 20%, rgba(201,225,255,1) 46%);
+  }
+
+  .logo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 25px auto;
+  }
+  .logo img {
+    width: 100%;
+  }
+  .contact{
+    width: 1300px;
+    height: 1150px;
+    padding: 75px;
+    margin-top: 50px;
+    margin-left: -50px;
+    min-height: 100vh;
+    text-align: left;
+  }
+  .container{
+  max-width: 800px;
+  margin: 0 auto;
+  }
+  .contact-wrapper{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
+  }
+  .contact-map{
+    margin-bottom: 0px;
+    margin-left: 0px;
+  }
+  .contact-map iframe{
+    width: 580px;
+    height: 350px;
+  }
+  .contact-info{
+    text-align: left;
+    margin-left: 45px;
+    width: 350px;
+    height:20px;
+  }
